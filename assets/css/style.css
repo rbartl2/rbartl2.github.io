@@ -138,6 +138,18 @@ footer p{
     margin: 0;
 }
 
+.grid-3 h3{
+    margin-top: 1rem;
+}
+
+#github-link{
+    color: #f4f4f4;
+}
+
+#github-link:hover{
+    color: #1E90FF;
+}
+
 
 /*Small Screens*/
 
