@@ -2,12 +2,180 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    
-    <title>GitHub Activity</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Rebecca Bartl</title>
 </head>
 <body>
+    <header class="showcase">
+        <div class="content">
+            <img src="assets/images/Me-Hat.jpg" class="logo" alt="Practice logo">
+            <div class="title">
+                Rebecca Bartl
+            </div>
+            <div class="text">
+                Full Stack Web Developer
+            </div>
+            <div class="text-2">
+                <a class="btn btn-lg btn-outline-success" href="#portfolio-work">Check my work</a>
+            </div>
+        </div>
+    </header>
 
-    <h1>GitHub Activity</h1>
+    <!--Services-->
+    <section class="services">
+        <div class="container grid-3 center">
+            <div>
+                <i class="fab fa-youtube fa-3x"></i>
+                <h3>YouTube</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, quod.</p>
+            </div>
+            <div>
+                <i class="fas fa-chalkboard-teacher fa-3x"></i>
+                <h3>Courses</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, quod.</p>
+            </div>
+            <div>
+                <i class="fas fa-briefcase fa-3x"></i>
+                <h3>Freelancing Projects</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, quod.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--BINGE-->
+    <section class="about bg-light" id="portfolio-work">
+        <div class="container">
+            <h1>Recent Work:</h1>
+            <div class="grid-2">
+                <div class="center">
+                    <img src="assets/images/Binge-pic.png" class="binge" alt="Binge">
+                    <!-- <i class="fas fa-laptop-code fa-10x"></i> -->
+                </div>
+                <div>
+                    <h2>Binge</h2>
+                    <p>Binge is a full stack movie search and save to watch later web app. The user can either click a top trending movie, search for a specific movie or actor, or click their "List". Clicking on a movie will display the actors, director, plot, rating, a movie trailer (if available), and a button "+ Binge" which will add that movie to that user's own List.  Searching for an actor will display movies that actor has starred in, also displayed in a similar grid as trending and a movie search.</p>
+                    <h3>Technologies Used:</h3>
+                    <ul class="tech-used">
+                        <li>HTML5</li>
+                        <li>CSS</li>
+                        <li>Bulma</li>
+                        <li>JavaScript</li>
+                        <li>jQuery</li>
+                        <li>AJAX</li>
+                        <li>Node.js</li>
+                        <li>Express.js</li>
+                        <li>Handlebars.js</li>
+                        <li>Sequelize</li>
+                        <li>mySQL</li>
+                    </ul>
+                    <a class="btn btn-outline-primary" href="https://github.com/rbartl2/binge" target="_blank">
+                        <i class="fab fa-github git-icon"></i>
+                        &ltcode&gt
+                    </a>
+                    <a class="btn btn-outline-primary" href="http://sleepy-waters-84015.herokuapp.com/" target="_blank">See it online</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <!--HUDDLE-->
+    <section class="about bg-light" id="portfolio-work">
+        <div class="container">
+            <div class="grid-2">
+                <div>
+                    <h2>Huddle</h2>
+                    <p>Using APIs from ESPN and Mysportsfeed, Huddle is a fully mobile-responsive app for trending NFL news and player stats with all of the clutter remvoved. Search for up to date player statistics or simply check out the trending top stories around the league.</p>
+                    <h3>Technologies:</h3>
+                    <ul class="tech-used">
+                        <li>HTML5</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>jQuery</li>
+                        <li>AJAX</li>
+                        <li>Firebase</li>
+                    </ul>
+                    <a class="btn btn-outline-primary" href="https://github.com/rbartl2/project1" target="_blank">
+                        <i class="fab fa-github git-icon"></i>
+                        &ltcode&gt
+                    </a>
+                    <a class="btn btn-outline-primary" href="https://blakeneely.github.io/project1/" target="_blank">See it online</a>
+                </div>
+                <div class="center">
+                    <img src="assets/images/Huddle-pic.png" class="huddle" alt="Huddle">
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <!--GIFTASTIC-->
+    <section class="about bg-light" id="portfolio-work">
+        <div class="container">
+            <div class="grid-2">
+                <div class="center">
+                    <img src="assets/images/GifTastic-pic.png" class="giftastic" alt="Giftastic">
+                    <!-- <i class="fas fa-laptop-code fa-10x"></i> -->
+                </div>
+                <div>
+                    <h2>Giftastic</h2>
+                    <p>Giftastic is a mobile-responsive app using GIPHY's API. Click a favotie tv show to populate the page with gifs. Click an image to animate the gif or add your own favorite to the button list!</p>
+                    <h3>Technologies Used:</h3>
+                    <ul class="tech-used">
+                        <li>HTML5</li>
+                        <li>CSS</li>
+                        <li>Bootstrap</li>
+                        <li>JavaScript</li>
+                        <li>jQuery</li>
+                        <li>AJAX</li>
+                    </ul>
+                    <a class="btn btn-outline-primary" href="https://github.com/rbartl2/giftastic" target="_blank">
+                        <i class="fab fa-github git-icon"></i>
+                        &ltcode&gt
+                    </a>
+                    <a class="btn btn-outline-primary" href="https://rbartl2.github.io/giftastic/" target="_blank">See it online</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <!--TRAIN SCHEDULER-->
+    <section class="about bg-light" id="portfolio-work">
+        <div class="container">
+            <div class="grid-2">
+                <div>
+                    <h2>Train Scheduler</h2>
+                    <p>This is a train schedule app that incorporates Firebase to host arrival and departure data. This app retrieves and manipulates this data with Moment.js. This website provides up-to-date information about various trains, namely their arrival times and how many minutes remain until they arrive at their station.</p>
+                    <h3>Technologies:</h3>
+                    <ul class="tech-used">
+                        <li>HTML5</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>jQuery</li>
+                        <li>Moment.js</li>
+                        <li>Firebase</li>
+                    </ul>
+                    <a class="btn btn-outline-primary" href="https://github.com/rbartl2/train-time" target="_blank">
+                        <i class="fab fa-github git-icon"></i>
+                        &ltcode&gt
+                    </a>
+                    <a class="btn btn-outline-primary" href="https://rbartl2.github.io/train-time/" target="_blank">See it online</a>
+                </div>
+                <div class="center">
+                    <img src="assets/images/TrainTime-pic.png" class="train" alt="TrainScheduler">
+                </div>
+            </div>
+        </div>
+    </section>
+
     
+    <footer class="center bg-dark">
+        <p>RJB Media &copy; 2019</p>
+    </footer>
 </body>
 </html>
