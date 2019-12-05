@@ -3,7 +3,6 @@ body{
     margin: 0;
     color: whitesmoke;
     font-family: 'Quicksand', sans-serif;
-    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 }
 
 .showcase::after{
@@ -132,7 +131,7 @@ body{
 }
 
 footer{
-    padding: 2.2rem;
+    padding: 2rem;
 }
 
 footer p{
@@ -156,9 +155,9 @@ h1{
     color: #402060;
 }
 
-/* #work-button{
-    transition: all 0.5s ease-in-out;
-} */
+hr{
+    border-top: none;
+}
 
 
 /*Small Screens*/
