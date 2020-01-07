@@ -5,4 +5,10 @@ $(document).ready(function(){
             'slow');
     });
 
+    function showResume(){
+        $("#resumeModal").modal("show");
+    }
+
+    $("#resume-link").on("click", showResume);
+
 });
