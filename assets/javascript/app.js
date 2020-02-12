@@ -11,4 +11,10 @@ $(document).ready(function(){
 
     $("#resume-link").on("click", showResume);
 
+    function showContact(){
+        $("#modalContactForm").modal("show");
+    }
+
+    $("#contact-link").on("click", showContact);
+
 });

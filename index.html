@@ -40,7 +40,7 @@
                 <p>Hire Me!</p>
             </div>
             <div>
-                <i class="far fa-paper-plane fa-3x" id="contact-link"></i>
+                <i class="far fa-paper-plane fa-3x" id="contact-link" data-toggle="modal" data-target="#modalContactForm"></i>
                 <h3>Contact</h3>
                 <p>Get in touch.</p>
             </div>
@@ -220,6 +220,50 @@
       </div>
     </div>
   </div>
+
+  <!-- Contact Form Modal -->
+  <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center text-dark">
+        <h4 class="modal-title w-100 font-weight-bold">Contact Form</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <i class="fas fa-user prefix text-dark"></i>
+          <input type="text" id="form34" class="form-control validate">
+          <label data-error="wrong" data-success="right" for="form34">Your name</label>
+        </div>
+
+        <div class="md-form mb-5">
+          <i class="fas fa-envelope prefix text-dark"></i>
+          <input type="email" id="form29" class="form-control validate">
+          <label data-error="wrong" data-success="right" for="form29">Your email</label>
+        </div>
+
+        <div class="md-form mb-5">
+          <i class="fas fa-tag prefix text-dark"></i>
+          <input type="text" id="form32" class="form-control validate">
+          <label data-error="wrong" data-success="right" for="form32">Subject</label>
+        </div>
+
+        <div class="md-form">
+        <i class="fas fa-pencil-alt text-dark"></i>
+          <textarea type="text" id="form8" class="md-textarea form-control" rows="4"></textarea>
+          <label data-error="wrong" data-success="right" for="form8">Your message</label>
+        </div>
+
+      </div>
+      <div class="modal-footer d-flex justify-content-center">
+        <button class="btn btn-unique">Send <i class="far fa-paper-plane ml-1"></i></button>
+      </div>
+    </div>
+  </div>
+</div>
 
     
     <footer class="center bg-dark">
