@@ -98,6 +98,14 @@ body{
     grid-template-columns: repeat(2, 1fr);
 }
 
+.clicky{
+    height: 280px;
+    width: 450px;
+    margin: 30px;
+    padding: 1px;
+    border:1px solid #021a40;
+}
+
 .huddle{
     height: 280px;
     width: 450px;
