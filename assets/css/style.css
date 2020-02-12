@@ -138,6 +138,19 @@ body{
     border:1px solid #021a40;
 }
 
+.md-form{
+    color:#333;
+}
+
+#modal_contact_button{
+    border-color: #333;
+}
+
+#modal_contact_button:hover{
+    color:#1E90FF;
+    cursor: pointer;
+}
+
 footer{
     padding: 2rem;
 }
